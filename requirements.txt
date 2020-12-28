@@ -8,6 +8,7 @@ aiofiles
 aiohttp
 aria2p
 asyncio
+apscheduler
 beautifulsoup4
 cfscrape
 coffeehouse
