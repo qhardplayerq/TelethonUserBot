@@ -48,7 +48,7 @@ async def ilk_test():
     print(result.full_chat.participants_count)
     print(remainder)
     if int(result.full_chat.participants_count) == int(remainder):
-        await bot.send_message(-1001210735099,"SFS BİTTİ !!!")
+        await tgbot.send_message(1052096636,"SFS BİTTİ !!!")
         scheduler.shutdown()
         return
 
