@@ -31,7 +31,7 @@ async def dene(event):
         # scheduler.add_job(ikinci_test, 'interval', seconds=4)
         scheduler.start()
         kanal = event.pattern_match.group(2)
-        check = await bot.get_entity(kanal)
+        check = await bot.get_entity(str(kanal))
         knl = check.id
         hatırlat = event.pattern_match.group(3)
         remainder = hatırlat
