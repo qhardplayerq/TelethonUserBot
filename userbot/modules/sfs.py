@@ -27,7 +27,7 @@ async def dene(event):
     if msg == "on":
         kont = True
         print("kont=True")
-        scheduler.add_job(ilk_test, 'interval', seconds=2)
+        scheduler.add_job(ilk_test, 'interval', seconds=10)
         # scheduler.add_job(ikinci_test, 'interval', seconds=4)
         scheduler.start()
         kanal = event.pattern_match.group(2)
