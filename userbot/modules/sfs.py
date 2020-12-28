@@ -41,7 +41,7 @@ async def ilk_test():
     global kont
     global knl
     global remainder
-    result = await tgbot(functions.channels.GetFullChannelRequest(
+    result = await bot(functions.channels.GetFullChannelRequest(
         channel=int(knl)
     ))
     # print(result.stringify())
