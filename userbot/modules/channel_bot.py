@@ -97,11 +97,11 @@ async def get_media(event):
             entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEUnlnmhE4z26NdxvQ"),#ifşa sepeti
             message=reply_message
         )        
-        await asyncio.sleep(1.2)
-        await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFebp6PIGgUeAC8DWA"),#+18 LİNK İFŞA
-            message=reply_message
-        )        
+#        await asyncio.sleep(1.2)
+ #       await event.client.send_message(
+ #           entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFebp6PIGgUeAC8DWA"),#+18 LİNK İFŞA
+ #           message=reply_message
+  #      )        
         
         await asyncio.sleep(1.2)
         # await event.reply(reply_message)
