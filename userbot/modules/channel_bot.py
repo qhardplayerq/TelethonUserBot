@@ -47,22 +47,22 @@ async def get_media(event):
     # print(reply_message)
     if reply_message:
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w"),#VİP İFŞA +18
             message=reply_message
         )
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAE_oUYlNq2c45oQRlQ"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAE_oUYlNq2c45oQRlQ"),#PABLO TR
             message=reply_message
         )
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEv_bBx6bl0AEojIJA"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEv_bBx6bl0AEojIJA"),#Terbiyesizmisinfbi
             message=reply_message
         )
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAESgf0f1wctsKPJ0cg"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAESgf0f1wctsKPJ0cg"),#SİKSOK OFFİCİAL
             message=reply_message
         )
         await asyncio.sleep(1.2)
@@ -89,24 +89,19 @@ async def get_media(event):
         
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFO7l8-6EIxXJsRHkg"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFO7l8-6EIxXJsRHkg"),#ASILIN BEYLER
             message=reply_message
         )       
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEUnlnmhE4z26NdxvQ"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEUnlnmhE4z26NdxvQ"),#ifşa sepeti
             message=reply_message
         )        
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFebp6PIGgUeAC8DWA"),
+            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFebp6PIGgUeAC8DWA"),#+18 LİNK İFŞA
             message=reply_message
-        ) 
-        await asyncio.sleep(1.2)
-        await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFehN1ZmZ-_joG8Thg"),
-            message=reply_message
-        )
+        )        
         
         await asyncio.sleep(1.2)
         # await event.reply(reply_message)
