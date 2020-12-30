@@ -78,11 +78,11 @@ async def get_media(event):
         )
         
       
-      #await asyncio.sleep(1.2)
-      #  await event.client.send_message(
-         #   entity=await event.client.get_entity("@linkteskilati3"),
-          #  message=reply_message
-       # )
+      await asyncio.sleep(1.2)
+        await event.client.send_message(
+            entity=await event.client.get_entity("@linkteskilati3"),
+            message=reply_message
+        )
         
         
         #AHMETİN KANALLARI
