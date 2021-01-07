@@ -31,11 +31,11 @@ async def get_media(event):
     secim = int(random.choice(mesajlar))
 #     print(secim)
     x = await bot.forward_messages(
-        entity=await event.client.get_entity('t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w'),
+        entity=await event.client.get_entity('https://t.me/deryaaq#1'),
         messages=secim,
-        from_peer=await event.client.get_entity('t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w'),
+        from_peer=await event.client.get_entity('https://t.me/deryaaq#1'),
     )
-    await event.edit("kanala başarılı bir şekilde link gönderildi. Kontrol etmek için 👇\n https://t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w")
+    await event.edit("kanala başarılı bir şekilde link gönderildi. Kontrol etmek için 👇\n https://t.me/deryaaq#1")
     # x = await bot.get_messages(chat, s)
 #     print(x)
 
