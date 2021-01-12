@@ -86,17 +86,9 @@ async def get_media(event):
         
         
         #AHMETİN KANALLARI
+       
         
-        await asyncio.sleep(1.2)
-        await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFO7l8-6EIxXJsRHkg"),#ASILIN BEYLER
-            message=reply_message
-        )       
-        await asyncio.sleep(1.2)
-        await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEUnlnmhE4z26NdxvQ"),#ifşa sepeti
-            message=reply_message
-        )        
+        
         await asyncio.sleep(1.2)
         await event.client.send_message(
             entity=await event.client.get_entity("https://t.me/joinchat/AAAAAFebp6PIGgUeAC8DWA"),#+18 LİNK İFŞA
