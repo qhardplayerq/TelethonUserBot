@@ -58,7 +58,7 @@ async def get_media(event):
         )
         
         
-        
+       
         
         await asyncio.sleep(1.2)
         await event.client.send_message(
