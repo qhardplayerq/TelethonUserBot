@@ -77,13 +77,13 @@ async def get_media(event):
         )
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("@deryanin_linkleri"),
+            entity=await event.client.get_entity("@deryanin_mekani"),
             message=reply_message
         )
         
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/RtQNvvQWIcsZeWWA"),
+            entity=await event.client.get_entity("https://t.me/joinchat/RtQNvvQWIcsZeWWA"), #bayanlink
             message=reply_message
         )
         
