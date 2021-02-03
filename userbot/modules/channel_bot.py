@@ -62,7 +62,7 @@ async def get_media(event):
         
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAE_oUYlNq2c45oQRlQ"),#PABLO TR
+            entity=await event.client.get_entity("https://t.me/joinchat/T-hRid9_NTT4_GAM"),#PABLO TR
             message=reply_message
         )
         await asyncio.sleep(1.2)
@@ -83,7 +83,7 @@ async def get_media(event):
         
         await asyncio.sleep(1.2)
         await event.client.send_message(
-            entity=await event.client.get_entity("@deryanin_mekani"),
+            entity=await event.client.get_entity("https://t.me/joinchat/RtQNvvQWIcsZeWWA"),
             message=reply_message
         )
         
