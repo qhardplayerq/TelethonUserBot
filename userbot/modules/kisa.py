@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 async def get_adzan(event):
   link = event.pattern_match.group(1)
   if link:
-      api = f"https://ay.link/api/?api=e2bb35a996ea8c9dfa4e5011005730bb584e283f&url={link}&alias&ct=1"
+      api = f"https://ay.live/st/?api=e2bb35a996ea8c9dfa4e5011005730bb584e283f&url={link}&ct=1"
       req = Request(api, headers={'User-Agent': 'Mozilla/5.0'})
       web_byte = urlopen(req).read()
       webpage = web_byte.decode('utf-8')
