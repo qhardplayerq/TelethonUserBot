@@ -47,8 +47,8 @@ async def get_media(event):
     # print(reply_message)
     if reply_message:
       await event.client.send_message(
-            entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w"),#VİP İFŞA +18
-            message=reply_message
+           entity=await event.client.get_entity("https://t.me/joinchat/AAAAAEylXUB6ztFxdgHp1w"),#VİP İFŞA +18
+           message=reply_message
         )
         
         await asyncio.sleep(1.2)
