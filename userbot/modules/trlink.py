@@ -24,9 +24,7 @@ logger = logging.getLogger(__name__)
 async def get_adzan(event):
   link = event.pattern_match.group(1)
   if link:
-      api = f"https://ay.live/api/?api=e2bb35a996ea8c9dfa4e5011005730bb584e283f&url={link}&alias&ct=1"
-      req = Request(api, headers=WEB_HDRS)
-      web_byte = urlopen(req).read()
-      webpage = web_byte.decode('utf-8')
-      data = json.loads(webpage)
+      api = "https://ay.live/api/?api=e2bb35a996ea8c9dfa4e5011005730bb584e283f&url={link}&alias&ct=1"
+      r = requests.get(url = api, params = WEB_HDRS) 
+      data = r.json()
       await event.edit(data['shortenedUrl'])
